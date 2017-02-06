@@ -1,8 +1,23 @@
 from django.http import HttpResponse
+from django.template import loader
+from .models import Question
 
 
 def index(request):
-    return HttpResponse("Hello, world. You're at the polls index.")
+    #내림차순이라 -pubdate
+    latest_question_list = Question.objects.order_by('-pub_date')
+    template = loader.get_template('polls/index.html')
+    context = {'latest_question_list': latest_question_list,}
+    return HttpResponse(template.render(context, request))
+
+
+    # output = ', '.join([q.question_text for q in latest_question_list])
+    # output2 = ''
+    # for q in latest_question_list:
+    #     output2 += q.question_text + ', '
+    # output2 = output2[:-2]
+    # return HttpResponse(output2)
+
 
 
 def detail(request, question_id):
