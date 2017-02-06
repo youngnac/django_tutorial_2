@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="382accda-3abf-4a96-b028-0620864ad134" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django_app/mysite/settings.py" afterPath="$PROJECT_DIR$/django_app/mysite/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django_app/polls/admin.py" afterPath="$PROJECT_DIR$/django_app/polls/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django_app/polls/models.py" afterPath="$PROJECT_DIR$/django_app/polls/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django_app/polls/urls.py" afterPath="$PROJECT_DIR$/django_app/polls/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django_app/polls/views.py" afterPath="$PROJECT_DIR$/django_app/polls/views.py" />
     </list>
     <ignored path="django_tutorial_2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,21 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/django_app/polls/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+            <state relative-caret-position="17">
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/django_app/polls/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -119,12 +116,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/django_app/polls/urls.py" />
         <option value="$PROJECT_DIR$/django_app/mysite/urls.py" />
-        <option value="$PROJECT_DIR$/django_app/polls/views.py" />
         <option value="$PROJECT_DIR$/django_app/mysite/settings.py" />
         <option value="$PROJECT_DIR$/django_app/polls/models.py" />
         <option value="$PROJECT_DIR$/django_app/polls/admin.py" />
+        <option value="$PROJECT_DIR$/django_app/polls/views.py" />
+        <option value="$PROJECT_DIR$/django_app/polls/urls.py" />
       </list>
     </option>
   </component>
@@ -478,16 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/django_app/polls/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/django_app/polls/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -526,9 +513,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/django_app/polls/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        <state relative-caret-position="17">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_app/polls/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
